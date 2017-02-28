@@ -13,7 +13,7 @@
 		260318571E654AEC00D59D0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260318551E654AEC00D59D0E /* Main.storyboard */; };
 		260318591E654AEC00D59D0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 260318581E654AEC00D59D0E /* Assets.xcassets */; };
 		2603185C1E654AEC00D59D0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2603185A1E654AEC00D59D0E /* LaunchScreen.storyboard */; };
-		260318661E654B8C00D59D0E /* TestTao.m in Sources */ = {isa = PBXBuildFile; fileRef = 260318651E654B8C00D59D0E /* TestTao.m */; };
+		2635DE521E65622C008A96F5 /* TestTao.m in Sources */ = {isa = PBXBuildFile; fileRef = 2635DE511E65622C008A96F5 /* TestTao.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		260318581E654AEC00D59D0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2603185B1E654AEC00D59D0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2603185D1E654AEC00D59D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		260318641E654B8C00D59D0E /* TestTao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTao.h; sourceTree = "<group>"; };
-		260318651E654B8C00D59D0E /* TestTao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTao.m; sourceTree = "<group>"; };
+		2635DE501E65622C008A96F5 /* TestTao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTao.h; sourceTree = "<group>"; };
+		2635DE511E65622C008A96F5 /* TestTao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTao.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		2603184B1E654AEC00D59D0E /* testTTao */ = {
 			isa = PBXGroup;
 			children = (
-				260318631E654B4D00D59D0E /* Class */,
+				2635DE4F1E65622C008A96F5 /* Classes */,
 				2603184F1E654AEC00D59D0E /* AppDelegate.h */,
 				260318501E654AEC00D59D0E /* AppDelegate.m */,
 				260318521E654AEC00D59D0E /* ViewController.h */,
@@ -83,13 +83,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		260318631E654B4D00D59D0E /* Class */ = {
+		2635DE4F1E65622C008A96F5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				260318641E654B8C00D59D0E /* TestTao.h */,
-				260318651E654B8C00D59D0E /* TestTao.m */,
+				2635DE501E65622C008A96F5 /* TestTao.h */,
+				2635DE511E65622C008A96F5 /* TestTao.m */,
 			);
-			path = Class;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260318661E654B8C00D59D0E /* TestTao.m in Sources */,
+				2635DE521E65622C008A96F5 /* TestTao.m in Sources */,
 				260318541E654AEC00D59D0E /* ViewController.m in Sources */,
 				260318511E654AEC00D59D0E /* AppDelegate.m in Sources */,
 				2603184E1E654AEC00D59D0E /* main.m in Sources */,
